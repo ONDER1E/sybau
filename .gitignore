@@ -1,0 +1,24 @@
+# === Rust Build Files ===
+/target/
+**/*.rs.bk
+
+# === Dependency Caches ===
+/Cargo.lock
+/.cargo/
+
+# === Backup / Temp Files ===
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+
+# === IDE / Editor Files ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# === Windows-Specific ===
+ehthumbs.db
+desktop.ini
